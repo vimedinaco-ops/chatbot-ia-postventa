@@ -1,0 +1,68 @@
+{
+    "SALUDO": [
+        "hola",
+        "buenas",
+        "buenos dias",
+        "buenas tardes",
+        "hello"
+    ],
+
+    "PEDIDO": [
+        "pedido",
+        "estado de pedido",
+        "seguimiento",
+        "donde esta mi pedido",
+        "pedido pendiente"
+    ],
+
+    "PRODUCTO": [
+        "producto",
+        "precio",
+        "informacion producto",
+        "descripcion producto"
+    ],
+
+    "CATEGORIA": [
+        "gaseosas",
+        "jugos",
+        "snacks",
+        "rehidratantes",
+        "aguas",
+        "aguas saborizadas",
+        "aloe",
+        "funcionales"
+    ],
+
+    "GARANTIA": [
+        "garantia",
+        "garantía"
+    ],
+
+    "FACTURA": [
+        "factura",
+        "boleta",
+        "comprobante"
+    ],
+
+    "CONTACTO": [
+        "contacto",
+        "telefono",
+        "correo",
+        "email"
+    ],
+
+    "HORARIO": [
+        "horario",
+        "hora",
+        "atencion",
+        "atención"
+    ],
+
+    "DESPEDIDA": [
+        "gracias",
+        "muchas gracias",
+        "adios",
+        "adiós",
+        "hasta luego"
+    ]
+}

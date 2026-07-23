@@ -1,0 +1,15 @@
+{
+    "saludo": "👋 Hola, soy el asistente virtual de NEXBOT Solutions. ¿En qué puedo ayudarte?",
+
+    "garantia": "🛡 Todos nuestros productos cuentan con 12 meses de garantía por defectos de fabricación.",
+
+    "factura": "🧾 Para consultar una factura, indícame el número de factura o el número de pedido.",
+
+    "contacto": "📞 Puedes comunicarte con nuestro equipo de soporte al correo soporte@nexbot.com o al teléfono (01) 555-1234.",
+
+    "horario": "🕒 Nuestro horario de atención es de lunes a viernes de 8:00 a.m. a 6:00 p.m.",
+
+    "despedida": "😊 Gracias por comunicarte con NEXBOT Solutions. ¡Que tengas un excelente día!",
+
+    "desconocido": "🤖 Lo siento, no entendí tu consulta. Intenta escribirla de otra forma."
+}

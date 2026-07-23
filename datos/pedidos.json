@@ -1,0 +1,41 @@
+{
+    "PED001":{
+        "cliente":"Juan Pérez",
+        "producto":"Laptop Empresarial",
+        "estado":"En reparto",
+        "fecha":"22/07/2026",
+        "transportista":"Olva Courier"
+    },
+
+    "PED002":{
+        "cliente":"María López",
+        "producto":"Monitor Profesional",
+        "estado":"Entregado",
+        "fecha":"20/07/2026",
+        "transportista":"Shalom"
+    },
+
+    "PED003":{
+        "cliente":"Carlos Medina",
+        "producto":"Impresora Multifuncional",
+        "estado":"Preparando envío",
+        "fecha":"23/07/2026",
+        "transportista":"Marvisur"
+    },
+
+    "PED004":{
+        "cliente":"Ana Torres",
+        "producto":"Laptop Empresarial",
+        "estado":"En almacén",
+        "fecha":"24/07/2026",
+        "transportista":"Olva Courier"
+    },
+
+    "PED005":{
+        "cliente":"Luis Ramos",
+        "producto":"Monitor Profesional",
+        "estado":"Entregado",
+        "fecha":"18/07/2026",
+        "transportista":"DHL"
+    }
+}

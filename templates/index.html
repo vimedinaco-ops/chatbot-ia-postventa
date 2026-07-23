@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEXBOT Solutions</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--================ TOP BAR ================-->
+
+<div class="top-bar">
+
+    <div class="container top-content">
+
+        <span>📧 contacto@nexbotsolutions.com</span>
+
+        <span>📍 Lima - Perú</span>
+
+        <span>🕒 Lun - Vie | 08:00 AM - 06:00 PM</span>
+
+    </div>
+
+</div>
+
+<!--================ HEADER ================-->
+
+<header class="header">
+
+    <div class="container nav-container">
+
+        <div class="logo">
+
+            <h2>NEXBOT <span>Solutions</span></h2>
+
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#inicio">Inicio</a></li>
+
+                <li><a href="#funciones">Funciones</a></li>
+
+                <li><a href="#productos">Productos</a></li>
+
+                <li><a href="#servicios">Servicios</a></li>
+
+                <li><a href="#nosotros">Nosotros</a></li>
+
+                <li><a href="#contacto">Contacto</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!--================ HERO ================-->
+
+<section class="hero" id="inicio">
+
+    <div class="container hero-container">
+
+        <div class="hero-left">
+
+            <span class="badge">
+
+                Inteligencia Artificial + Machine Learning
+
+            </span>
+
+            <h1>
+
+                Atención Postventa Inteligente para Empresas
+
+            </h1>
+
+            <p>
+
+                NEXBOT Solutions automatiza la atención postventa mediante Inteligencia
+                Artificial, permitiendo responder consultas sobre productos, pedidos,
+                garantías y servicios de forma rápida, eficiente y disponible las 24 horas.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <button id="abrirChat" class="btn-primary">
+
+                    🚀 Probar Chatbot
+
+                </button>
+
+                <a href="#productos" class="btn-secondary">
+
+                    Ver Productos
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <img src="{{ url_for('static', filename='img/chatbot.png') }}" alt="Chatbot">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ ESTADISTICAS ================-->
+
+<section class="stats">
+
+    <div class="container stats-container">
+
+        <div class="stat-box">
+
+            <h2>8</h2>
+
+            <p>Categorías</p>
+
+        </div>
+
+        <div class="stat-box">
+
+            <h2>24/7</h2>
+
+            <p>Disponibilidad</p>
+
+        </div>
+
+        <div class="stat-box">
+
+            <h2>100%</h2>
+
+            <p>Digital</p>
+
+        </div>
+
+        <div class="stat-box">
+
+            <h2>IA</h2>
+
+            <p>Machine Learning</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ FUNCIONES ================-->
+
+<section id="funciones" class="features">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>¿Qué puede hacer NEXBOT?</h2>
+
+            <p>
+
+                Nuestro asistente virtual ayuda a los clientes resolviendo consultas frecuentes.
+
+            </p>
+
+        </div>
+
+        <div class="features-grid">
+
+            <div class="feature-card">
+
+                <div class="icon">📦</div>
+
+                <h3>Pedidos</h3>
+
+                <p>Consulta el estado de tus pedidos.</p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <div class="icon">🥤</div>
+
+                <h3>Productos</h3>
+
+                <p>Información completa de productos.</p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <div class="icon">🛡️</div>
+
+                <h3>Garantías</h3>
+
+                <p>Información sobre cambios y devoluciones.</p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <div class="icon">🤖</div>
+
+                <h3>Asistente IA</h3>
+
+                <p>Disponible las 24 horas del día.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ PRODUCTOS ================-->
+
+<section id="productos">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Categorías de Productos</h2>
+
+<p>
+
+Nuestro chatbot brinda soporte para todas las líneas de productos.
+
+</p>
+
+</div>
+
+<div class="productos-grid">
+
+            <div class="producto-card">
+            <div class="producto-icon">🥤</div>
+            <h3>Gaseosas</h3>
+            <p>Bebidas gaseosas de diferentes sabores y presentaciones.</p>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-icon">🧃</div>
+            <h3>Jugos</h3>
+            <p>Jugos naturales y néctares para toda la familia.</p>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-icon">🍪</div>
+            <h3>Snacks</h3>
+            <p>Amplia variedad de snacks dulces y salados.</p>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-icon">💧</div>
+            <h3>Aguas</h3>
+            <p>Agua purificada y mineral en diferentes tamaños.</p>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-icon">🌿</div>
+            <h3>Aloe</h3>
+            <p>Bebidas elaboradas con aloe vera para un estilo de vida saludable.</p>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-icon">⚡</div>
+            <h3>Funcionales</h3>
+            <p>Bebidas energéticas y funcionales para mayor rendimiento.</p>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-icon">🍋</div>
+            <h3>Aguas Saborizadas</h3>
+            <p>Opciones refrescantes con deliciosos sabores frutales.</p>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-icon">🏃</div>
+            <h3>Rehidratantes</h3>
+            <p>Bebidas ideales para recuperar minerales después de la actividad física.</p>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!--================ SERVICIOS ================-->
+
+<section id="servicios" class="services">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Nuestros Servicios</h2>
+
+            <p>
+                Soluciones digitales para mejorar la experiencia de atención al cliente.
+            </p>
+
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <h3>🤖 Chatbot Inteligente</h3>
+                <p>Atención automática basada en Machine Learning para responder consultas frecuentes.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>📈 Análisis de Consultas</h3>
+                <p>Registro y análisis de las preguntas realizadas por los clientes.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>⚙️ Automatización</h3>
+                <p>Optimización de procesos de atención postventa mediante Inteligencia Artificial.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ NOSOTROS ================-->
+
+<section id="nosotros" class="about">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Sobre NEXBOT Solutions</h2>
+
+        </div>
+
+        <p class="about-text">
+
+            NEXBOT Solutions es un proyecto académico orientado al desarrollo de soluciones
+            inteligentes utilizando Machine Learning para mejorar la atención postventa.
+            Nuestro objetivo es ofrecer respuestas rápidas, precisas y disponibles las
+            24 horas mediante un asistente virtual capaz de comprender las consultas de los clientes.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!--================ CONTACTO ================-->
+
+<section id="contacto" class="contact">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Contáctanos</h2>
+            <p>Estamos listos para ayudarte y resolver cualquier consulta.</p>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+                <h3>📍 Dirección</h3>
+                <p>Lima - Perú</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>📧 Correo</h3>
+                <p>contacto@nexbotsolutions.com</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>📱 Teléfono</h3>
+                <p>+51 999 999 999</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>🕒 Horario</h3>
+                <p>Lunes a Viernes<br>08:00 AM - 06:00 PM</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ CHATBOT ================-->
+
+<button id="chatButton" class="chat-button">
+    💬
+</button>
+
+<div id="chatContainer" class="chat-container">
+
+    <div class="chat-header">
+
+        <div>
+            <strong>NEXBOT Assistant</strong><br>
+            <small>En línea</small>
+        </div>
+
+        <button id="cerrarChat">✖</button>
+
+    </div>
+
+    <div id="chatMessages" class="chat-body">
+
+        <div class="bot-message">
+
+            👋 ¡Hola!
+
+            <br><br>
+
+            Soy el asistente virtual de NEXBOT Solutions.
+
+            <br><br>
+
+            ¿En qué puedo ayudarte hoy?
+
+        </div>
+
+    </div>
+
+    <div class="chat-footer">
+
+        <input
+            type="text"
+            id="mensaje"
+            placeholder="Escribe tu consulta..."
+            autocomplete="off"
+        >
+
+        <button id="enviar">
+
+            Enviar
+
+        </button>
+
+    </div>
+
+</div>
+
+<!--================ FOOTER ================-->
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <h2>NEXBOT Solutions</h2>
+
+            <p>
+
+                Plataforma inteligente desarrollada con Machine Learning para mejorar la atención postventa mediante un asistente virtual.
+
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Servicios</h3>
+
+            <ul>
+
+                <li>Chatbot Inteligente</li>
+
+                <li>Machine Learning</li>
+
+                <li>Atención Postventa</li>
+
+                <li>Automatización</li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h3>Proyecto Académico</h3>
+
+            <ul>
+
+                <li>Grupo 5</li>
+
+                <li>Ingeniería de Sistemas</li>
+
+                <li>Curso: Machine Learning</li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h3>Integrantes</h3>
+
+            <ul>
+
+                <li>Víctor Allan Medina Corahua</li>
+
+                <li>Luis Miguel Espinoza Yacolca</li>
+
+                <li>Jesús Barbarán Dávalos</li>
+
+                <li>José Luis Delgado Macedo</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        © 2026 NEXBOT Solutions | Todos los derechos reservados.
+
+    </div>
+
+</footer>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+
+</html>
+

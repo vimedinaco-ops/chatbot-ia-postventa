@@ -1,0 +1,68 @@
+{
+  "productos": [
+    {
+      "id": "PROD001",
+      "nombre": "KR",
+      "categoria": "Gaseosas",
+      "descripcion": "Gaseosa sabor cola.",
+      "precio": 3.50,
+      "stock": 120
+    },
+    {
+      "id": "PROD002",
+      "nombre": "Kris Naranja",
+      "categoria": "Jugos",
+      "descripcion": "Jugo sabor naranja.",
+      "precio": 2.80,
+      "stock": 90
+    },
+    {
+      "id": "PROD003",
+      "nombre": "Generade Limón",
+      "categoria": "Rehidratantes",
+      "descripcion": "Bebida rehidratante sabor limón.",
+      "precio": 4.50,
+      "stock": 70
+    },
+    {
+      "id": "PROD004",
+      "nombre": "Agua Mineral",
+      "categoria": "Aguas",
+      "descripcion": "Agua mineral sin gas.",
+      "precio": 2.00,
+      "stock": 150
+    },
+    {
+      "id": "PROD005",
+      "nombre": "Agua Saborizada Limón",
+      "categoria": "Aguas Saborizadas",
+      "descripcion": "Agua sabor limón.",
+      "precio": 2.50,
+      "stock": 80
+    },
+    {
+      "id": "PROD006",
+      "nombre": "Aloe Vera",
+      "categoria": "Aloe",
+      "descripcion": "Bebida natural con aloe vera.",
+      "precio": 5.00,
+      "stock": 60
+    },
+    {
+      "id": "PROD007",
+      "nombre": "Bebida Energética",
+      "categoria": "Funcionales",
+      "descripcion": "Bebida funcional energizante.",
+      "precio": 6.50,
+      "stock": 45
+    },
+    {
+      "id": "PROD008",
+      "nombre": "Papas Nativas",
+      "categoria": "Snacks",
+      "descripcion": "Snack de papas nativas.",
+      "precio": 3.20,
+      "stock": 110
+    }
+  ]
+}
